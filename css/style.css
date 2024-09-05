@@ -1,0 +1,104 @@
+.row {
+    background-color: lightgoldenrodyellow;
+}
+.card-text {
+    opacity: 100;
+    transition: opacity 0.3s ease;
+}
+.card:hover .card-text {
+    background-color: lightcoral;
+    opacity: 1;
+}
+.social-media a {
+    margin: 0 10px;
+}
+.social-media i {
+    font-size: 20px;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.explore-btn {
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.footer {
+    background-color:lightsalmon;
+    color:black;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+.container {
+background-color: lemonchiffon;
+color: black;
+font-size: 20px;
+}
+.learnmore { 
+padding: 2%;
+margin: 5%;
+}
+.ABOUTus{
+background-color: purple;
+color: white;
+}
+
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+       
+        .service-card {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service-card:hover {
+            animation: pulse 1s infinite;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+   
+        .process-column {
+            padding: 20px;
+            color: purple;
+        }
+        .body {
+            font-size: large;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        ul li {
+            margin: 0 15px;
+        }
+        ul li a {
+            font-size: 24px; 
+            color: #000; 
+            text-decoration: none;
+        }
+        ul li a:hover {
+            color: #007bff; 
+        }
+
+
+    
+        
+
+    
+
+
